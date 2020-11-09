@@ -8,8 +8,13 @@ When updating one of our entities, some fields will need to be echoed through ot
   - news>author
   - news>comments>author
 - games (game, image)
-  - todo
+  - users>owned_games
+  - news>game
+  - stars>works
 - news (published_at, published, title, cover)
-  - todo
+  - users>written_news
+  - games>related_news
 - stars (name, avatar, link_boardgeek)
-  - todo
+  - games>authors
+  - games>editor
+  - games>illustrators
