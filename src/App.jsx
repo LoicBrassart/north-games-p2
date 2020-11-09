@@ -12,28 +12,34 @@ const SApp = styled.div`
   width: 100vw;
   min-height: 100vh;
 
-  // Layout Grid
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 7fr;
   grid-template-areas: "logo header" "nav main";
 
-  // Children
-  img {
-    // Layout Grid
+  #logo {
     grid-area: logo;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   main {
-    // Layout Grid
     grid-area: main;
+  }
+
+  a,
+  a:visited {
+    color: white;
+    text-decoration: none;
   }
 `;
 
 function App() {
   return (
     <SApp>
-      <Link to="/">
+      <Link to="/" id="logo">
         <img src="/assets/img/logo.svg" alt="logo" />
       </Link>
       <Header />
