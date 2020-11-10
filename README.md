@@ -15,6 +15,7 @@ npm i -g json-server
 cd north-games-p2
 npm start
 ```
+
 ```
 cd north-games-p2
 json-server --watch ./backend-simulation/full.json --port 5050
