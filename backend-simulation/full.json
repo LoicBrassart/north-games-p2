@@ -1,147 +1,190 @@
 {
-    "users": [
+  "users": [
+    {
+      "id": 1,
+      "created_at": 1604861223,
+      "updated_at": 1604861223,
+      "logged_at": 1604861223,
+      "userName": "Loïc",
+      "password": "qsdjfklgklfhsdkmfhmlsdhfmDFHMgfkdsgjmkJFKLSFHKLQSJFLMSDKJFLM",
+      "email": "loic@spamland.com",
+      "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg",
+      "banner": "https://wilders.co/medias/image/16970664615e283f7491d9c.png",
+      "status": "user|admin|partner",
+      "bio": "Lorem ipsum dolor sit amet blablablabla",
+      "discussions": [
         {
-            "id": 1,
-            "created_at": 1604861223,
-            "updated_at": 1604861223,
-            "logged_at": 1604861223,
-            "userName": "Loïc",
-            "password": "qsdjfklgklfhsdkmfhmlsdhfmDFHMgfkdsgjmkJFKLSFHKLQSJFLMSDKJFLM",
-            "email": "loic@spamland.com",
-            "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg",
-            "banner": "https://wilders.co/medias/image/16970664615e283f7491d9c.png",
-            "social_circles": [
-                {
-                    "label": "friends",
-                    "members": [
-                        {
-                            "id": 2,
-                            "userName": "ValFaucon",
-                            "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg"
-                        }
-                    ]
-                }
-            ],
-            "owned_games": [
-                {
-                    "id": 1,
-                    "name": "Horreur à Arkham",
-                    "image": "https://cdn2.philibertnet.com/360741-thickbox_default/horreur-a-arkham-le-jeu-de-cartes.jpg"
-                }
-            ],
-            "written_news": [
-                {
-                    "id": 1,
-                    "published_at": 1604861223,
-                    "published": true,
-                    "title": "Horreur à Arkham: Dernière heure",
-                    "cover": "http://www.edgeent.com/sisimg/catalog/site/arkham_horror_lcg.jpg"
-                }
-            ]
+          "id": 1,
+          "updated_at": 1604861223,
+          "title": "We need to talk",
+          "active_at": 1604861223
         }
-    ],
-    "games": [
+      ],
+      "subscribes": [
         {
-            "id": 1,
-            "created_at": 1604861223,
-            "updated_at": 1604861223,
-            "name": "Horreur à Arkham",
-            "authors": [
-                {
-                    "id": 1,
-                    "name": "Carlo A. Rossi"
-                }
-            ],
-            "editor": {
-                "id": 1,
-                "name": "Carlo A. Rossi"
-            },
-            "illustrator": [
-                {
-                    "id": 1,
-                    "name": "Carlo A. Rossi"
-                }
-            ],
-            "description": "N/A",
-            "nbPlayer": "1 à 4 joueurs",
-            "length": "60 minutes",
-            "image": "https://cdn2.philibertnet.com/360741-thickbox_default/horreur-a-arkham-le-jeu-de-cartes.jpg",
-            "tags": "survie deduction communication_limitée lovecraft cthulhu",
-            "comments": [
-                {
-                    "id": 1,
-                    "created_at": 1604861223,
-                    "updated_at": 1604861223,
-                    "author": {
-                        "id": 2,
-                        "userName": "ValFaucon",
-                        "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg"
-                    },
-                    "content": "Je suis dubitatif. D’une part parce que je ne vois pas le rapport avec Lovecraft hormis le thème plaqué et aussi parce que c’est toujours les mêmes illustrations"
-                }
-            ],
-            "related_news": [
-                {
-                    "id": 1,
-                    "published_at": 1604861223,
-                    "published": true,
-                    "title": "Horreur à Arkham: Dernière heure",
-                    "cover": "http://www.edgeent.com/sisimg/catalog/site/arkham_horror_lcg.jpg"
-                }
-            ]
+          "id": 2,
+          "userName": "ValFaucon",
+          "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg"
         }
-    ],
-    "news": [
+      ],
+      "social_circles": [
         {
-            "id": 1,
-            "created_at": 1604861223,
-            "updated_at": 1604861223,
-            "published_at": 1604861223,
-            "published": true,
-            "title": "Horreur à Arkham: Dernière heure",
-            "author": {
-                "id": 2,
-                "userName": "ValFaucon",
-                "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg"
-            },
-            "cover": "http://www.edgeent.com/sisimg/catalog/site/arkham_horror_lcg.jpg",
-            "lede": "C’est votre Dernière Heure ! Vous êtes arrivé trop tard pour arrêter l’ignoble rituel, un monstrueux Grand ancien commence à lacérer la réalité. Un portail dimensionnelle annonce l’arrivée d’une horde de créatures cauchemardesques déferlant sur les vénérables bâtiments de l’université Miskatonic… Au milieu des cris et des hurlements qui déchirent la nuit, nos courageux investigateurs vont devoir s’unir pour faire face à ces abominations assez longtemps pour que quelqu’un annule le rituel !",
-            "content": "Lorem ipsum dolor sit amet, blablabla",
-            "game": {
-                "id": 1,
-                "name": "Uno",
-                "image": "https://cdn2.philibertnet.com/360741-thickbox_default/horreur-a-arkham-le-jeu-de-cartes.jpg"
-            },
-            "comments": [
-                {
-                    "id": 1,
-                    "created_at": 1604861223,
-                    "updated_at": 1604861223,
-                    "author": {
-                        "id": 2,
-                        "userName": "ValFaucon",
-                        "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg"
-                    },
-                    "content": "Je suis dubitatif. D’une part parce que je ne vois pas le rapport avec Lovecraft hormis le thème plaqué et aussi parce que c’est toujours les mêmes illustrations"
-                }
-            ]
+          "label": "friends",
+          "members": [
+            {
+              "id": 2,
+              "userName": "ValFaucon",
+              "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg"
+            }
+          ]
         }
-    ],
-    "stars": [
+      ],
+      "owned_games": [
         {
-            "id": 1,
-            "created_at": 1604861223,
-            "updated_at": 1604861223,
-            "name": "Carlo A. Rossi",
-            "avatar": "https://cf.geekdo-images.com/JB2mceXkwyriQkKalhWKrA__itemrep/img/4C9mZcDs8H1GLuRtHQDiHDkm1x8=/fit-in/246x300/filters:strip_icc()/pic977318.jpg",
-            "link_boardgamegeek": "https://boardgamegeek.com/boardgamedesigner/3540/carlo-rossi",
-            "works": [
-                {
-                    "id": 1,
-                    "name": "Horreur à Arkham",
-                    "image": "https://cdn2.philibertnet.com/360741-thickbox_default/horreur-a-arkham-le-jeu-de-cartes.jpg"
-                }
-            ]
+          "id": 1,
+          "name": "Horreur à Arkham",
+          "image": "https://cdn2.philibertnet.com/360741-thickbox_default/horreur-a-arkham-le-jeu-de-cartes.jpg"
         }
-    ]
+      ],
+      "written_news": [
+        {
+          "id": 1,
+          "published_at": 1604861223,
+          "published": true,
+          "title": "Horreur à Arkham: Dernière heure",
+          "cover": "http://www.edgeent.com/sisimg/catalog/site/arkham_horror_lcg.jpg"
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "created_at": 1604861223,
+      "updated_at": 1604861223,
+      "name": "Horreur à Arkham",
+      "authors": [
+        {
+          "id": 1,
+          "name": "Carlo A. Rossi"
+        }
+      ],
+      "editor": {
+        "id": 1,
+        "name": "Carlo A. Rossi"
+      },
+      "illustrator": [
+        {
+          "id": 1,
+          "name": "Carlo A. Rossi"
+        }
+      ],
+      "description": "N/A",
+      "nbPlayer": "1 à 4 joueurs",
+      "length": "60 minutes",
+      "image": "https://cdn2.philibertnet.com/360741-thickbox_default/horreur-a-arkham-le-jeu-de-cartes.jpg",
+      "tags": "survie deduction communication_limitée lovecraft cthulhu",
+      "comments": [
+        {
+          "id": 1,
+          "created_at": 1604861223,
+          "updated_at": 1604861223,
+          "author": {
+            "id": 2,
+            "userName": "ValFaucon",
+            "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg"
+          },
+          "content": "Je suis dubitatif. D’une part parce que je ne vois pas le rapport avec Lovecraft hormis le thème plaqué et aussi parce que c’est toujours les mêmes illustrations"
+        }
+      ],
+      "related_news": [
+        {
+          "id": 1,
+          "published_at": 1604861223,
+          "published": true,
+          "title": "Horreur à Arkham: Dernière heure",
+          "cover": "http://www.edgeent.com/sisimg/catalog/site/arkham_horror_lcg.jpg"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "created_at": 1604861223,
+      "updated_at": 1604861223,
+      "published_at": 1604861223,
+      "published": true,
+      "title": "Horreur à Arkham: Dernière heure",
+      "author": {
+        "id": 2,
+        "userName": "ValFaucon",
+        "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg"
+      },
+      "cover": "http://www.edgeent.com/sisimg/catalog/site/arkham_horror_lcg.jpg",
+      "lede": "C’est votre Dernière Heure ! Vous êtes arrivé trop tard pour arrêter l’ignoble rituel, un monstrueux Grand ancien commence à lacérer la réalité. Un portail dimensionnelle annonce l’arrivée d’une horde de créatures cauchemardesques déferlant sur les vénérables bâtiments de l’université Miskatonic… Au milieu des cris et des hurlements qui déchirent la nuit, nos courageux investigateurs vont devoir s’unir pour faire face à ces abominations assez longtemps pour que quelqu’un annule le rituel !",
+      "content": "Lorem ipsum dolor sit amet, blablabla",
+      "game": {
+        "id": 1,
+        "name": "Uno",
+        "image": "https://cdn2.philibertnet.com/360741-thickbox_default/horreur-a-arkham-le-jeu-de-cartes.jpg"
+      },
+      "comments": [
+        {
+          "id": 1,
+          "created_at": 1604861223,
+          "updated_at": 1604861223,
+          "author": {
+            "id": 2,
+            "userName": "ValFaucon",
+            "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg"
+          },
+          "content": "Je suis dubitatif. D’une part parce que je ne vois pas le rapport avec Lovecraft hormis le thème plaqué et aussi parce que c’est toujours les mêmes illustrations"
+        }
+      ]
+    }
+  ],
+  "stars": [
+    {
+      "id": 1,
+      "created_at": 1604861223,
+      "updated_at": 1604861223,
+      "name": "Carlo A. Rossi",
+      "avatar": "https://cf.geekdo-images.com/JB2mceXkwyriQkKalhWKrA__itemrep/img/4C9mZcDs8H1GLuRtHQDiHDkm1x8=/fit-in/246x300/filters:strip_icc()/pic977318.jpg",
+      "link_boardgamegeek": "https://boardgamegeek.com/boardgamedesigner/3540/carlo-rossi",
+      "works": [
+        {
+          "id": 1,
+          "name": "Horreur à Arkham",
+          "image": "https://cdn2.philibertnet.com/360741-thickbox_default/horreur-a-arkham-le-jeu-de-cartes.jpg"
+        }
+      ]
+    }
+  ],
+  "discussions": [
+    {
+      "id": 1,
+      "created_at": 1604861223,
+      "updated_at": 1604861223,
+      "title": "We need to talk",
+      "participants": [
+        {
+          "id": 2,
+          "userName": "ValFaucon",
+          "avatar": "https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2018/12/loutre-de-mer.jpg",
+          "active_at": 1604861223
+        }
+      ],
+      "messages": [
+        {
+          "created_at": 1604861223,
+          "updated_at": 1604861223,
+          "content": "blablabla lol",
+          "author": {
+            "id": 2
+          }
+        }
+      ]
+    }
+  ]
 }

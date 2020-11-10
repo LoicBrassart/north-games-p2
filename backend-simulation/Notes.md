@@ -1,3 +1,8 @@
+## Todo
+
+groupes de joueurs
+parties
+
 ## Mongo updates chains
 
 When updating one of our entities, some fields will need to be echoed through other collections.
@@ -7,6 +12,7 @@ When updating one of our entities, some fields will need to be echoed through ot
   - games>comments>author
   - news>author
   - news>comments>author
+  - discussions>participants
 - games (game, image)
   - users>owned_games
   - news>game
@@ -18,3 +24,5 @@ When updating one of our entities, some fields will need to be echoed through ot
   - games>authors
   - games>editor
   - games>illustrators
+- discussions (updated_at, title)
+  - users>discussions
