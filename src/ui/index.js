@@ -1,4 +1,4 @@
 import Title from "./Title";
-import Gallery from "./Gallery";
+import { Masonry, Stone } from "./Masonry";
 
-export { Title, Gallery };
+export { Title, Masonry, Stone };
