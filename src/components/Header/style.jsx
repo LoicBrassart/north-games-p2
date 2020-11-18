@@ -17,15 +17,4 @@ const SHeader = styled.header`
   }
 `;
 
-export default function Header() {
-  return (
-    <SHeader>
-      <div>
-        <input default="Search" />
-      </div>
-      <div>
-        <div>Avatar</div>
-      </div>
-    </SHeader>
-  );
-}
+export { SHeader }
