@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import { Home } from "./pages";
 
-import { SApp } from "./style"
+import { SApp } from "./style";
 
 function App() {
   return (

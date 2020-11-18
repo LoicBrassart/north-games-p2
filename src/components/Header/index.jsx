@@ -1,4 +1,4 @@
-import { SHeader } from "./style"
+import { SHeader } from "./style";
 
 export default function Header() {
   return (

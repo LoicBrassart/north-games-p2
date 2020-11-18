@@ -17,4 +17,4 @@ const SHeader = styled.header`
   }
 `;
 
-export { SHeader }
+export { SHeader };
