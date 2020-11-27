@@ -3,7 +3,6 @@ import { Title, Masonry, Stone } from "../ui";
 const imgs = [
   "https://cdn.vox-cdn.com/thumbor/t1PqH832nto6YQjdbGDZSbIkdn4=/0x203:2446x1426/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/19353661/critical_role.png",
   "https://images-na.ssl-images-amazon.com/images/I/91UI63p1aEL.jpg",
-  "",
   "https://ksr-ugc.imgix.net/assets/024/180/681/20b0b3846c5175714b0cf75822d46e00_original.jpg?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1550868442&auto=format&frame=1&q=92&s=70491da5dbacc53d43cd232ea7f21033",
   "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Critical_Role_logo%2C_from_social_media_2020.jpg/250px-Critical_Role_logo%2C_from_social_media_2020.jpg",
   "https://i2.wp.com/www.theilluminerdi.com/wp-content/uploads/2020/06/critical-role-cast.jpg?resize=1280%2C640&ssl=1",
